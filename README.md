@@ -20,10 +20,10 @@ npm -v
 1. run `npm start`
 
 An app window should pop up with chrome DevTools open. 
-Edit source file and save. The app will be automatically reload and update.  
+Edit source file and save. The app will be automatically reload and update.   
 
 ## Roadmap 
-See [roadmap](./doc/roadmap) in doc
+See [roadmap](./doc/roadmap.md) in doc
 
 ## License
 MIT
