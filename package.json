@@ -1,0 +1,17 @@
+{
+    "name": "file-checker",
+    "version": "0.1.0",
+    "description": "Check file duplication",
+    "main": "src/main.js",
+    "scripts": {
+        "start": "electron .",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "MIT",
+    "devDependencies": {
+        "electron": "^11.2.2",
+        "electron-reloader": "^1.2.0"
+    }
+}
