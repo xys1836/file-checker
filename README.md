@@ -1,6 +1,6 @@
 # file-checker
 
-This is an [electron](https://www.electronjs.org/) app.  
+This is an [Electron](https://www.electronjs.org/) app.  
 Check duplicated files in file system.
 
 ## Prerequisite 
@@ -13,17 +13,25 @@ npm -v
 ```
 
 
-## Installation and start
+## To Use
 1. git clone this repo.
 1. enter repo directory.
-1. run `npm install`
-1. run `npm start`
+1. run `npm install` - Install node module. Only need to run once. A `node_modules` folder will be generated.
+1. run `npm start` - Start the application. A `dist` folder will be generated.
+1. run `npm run watch` - Run this in a separate terminal. This recompile typescript automatically if ts has been changed.
+1. run `npm run clean:dist` - Run this only if you need to clean dist folder. 
 
-An app window should pop up with chrome DevTools open. 
-Edit source file and save. The app will be automatically reload and update.   
+An app window should pop up with chrome DevTools open.   
 
 ## Roadmap 
-See [roadmap](./doc/roadmap.md) in doc
+See [roadmap](./docs/roadmap.md) in docs
+
+## Resources
+[Electron](https://www.electronjs.org/)  
+[Electron Documentation: Quick Start Guide](https://www.electronjs.org/docs/tutorial/quick-start)  
+[TypeScript](https://www.typescriptlang.org/)  
+[electron-quick-start-typescript](https://github.com/electron/electron-quick-start-typescript)  
+[npm](https://www.npmjs.com/)  
 
 ## License
-MIT
+[MIT](./LICENSE)
